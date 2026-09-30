@@ -11,7 +11,7 @@ from typing import List, Tuple, Dict
 SIM_TIME = 1000
 BATCH_MIN, BATCH_MAX = 2, 8
 BATCH_DELAY = 5
-IO_CHANNELS = 1
+IO_CHANNELS = 2
 
 # Веса
 WEIGHTS = {
@@ -22,9 +22,9 @@ WEIGHTS = {
 
 # Фазы
 PHASE_PARAMS = {
-    'cpu':      (18.0, 4.0,  2.0, 0.5),
-    'io':       ( 2.0, 0.5, 18.0, 4.0),
-    'balanced': (10.0, 2.0, 10.0, 2.0),
+    'cpu':      (20.0, 4.0, 1.0, 0.5),
+    'io':       (1.0, 0.5, 20.0, 4.0),
+    'balanced': (12.0, 3.0, 12.0, 3.0),
 }
 
 SEED = random.randint(0, 99)
@@ -70,7 +70,7 @@ def make_job(job_id, batch_id, env, rng, weights):
                arrival_time=env.now, cpu_duration=cpu_dur, io_duration=io_dur)
 
 
-# ---------------------- Процесс задания ----------------------
+# Процесс задания
 
 def job_process(env, job, cpu, io, stats):
     job.start_time = env.now
@@ -172,16 +172,6 @@ def compute_metrics(stats, sim_end):
 
 def run_sweep(fix='io', fixed_value=0.1, varying='cpu',
               values=None, n_seeds=5, sim_time=SIM_TIME):
-    """
-    Серия экспериментов с одним фиксированным типом задач.
-
-    fix         : 'cpu' | 'io' | 'balanced'  — какой тип фиксируем
-    fixed_value : значение доли зафиксированного типа
-    varying     : 'cpu' | 'io' | 'balanced'  — какой тип меняем
-                  (не должен совпадать с fix)
-    values      : список значений доли varying
-    n_seeds     : число seed на точку
-    """
     if values is None:
         values = [0.05, 0.15, 0.25, 0.35, 0.45, 0.55, 0.65, 0.75, 0.85]
 
@@ -218,7 +208,7 @@ def run_sweep(fix='io', fixed_value=0.1, varying='cpu',
 
         thr, turn, idle, c_u, io_u = [], [], [], [], []
         for s in range(n_seeds):
-            seed = 1000 * s + int(v * 100) + int(fixed_value * 1000)
+            seed = random.randint(0, 99)
             stats, sim_end = run_model(weights=weights,
                                        sim_time=sim_time, seed=seed)
             m = compute_metrics(stats, sim_end)
