@@ -1,0 +1,3 @@
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/edit_cache.dir
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/rebuild_cache.dir

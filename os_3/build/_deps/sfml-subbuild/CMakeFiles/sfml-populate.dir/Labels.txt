@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/Users/nikita/code/os/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

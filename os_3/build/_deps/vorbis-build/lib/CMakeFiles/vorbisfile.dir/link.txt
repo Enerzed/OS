@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../sfml-build/lib/libvorbisfiled.a CMakeFiles/vorbisfile.dir/Unity/unity_0_c.c.o
+/opt/homebrew/opt/llvm/bin/llvm-ranlib ../../sfml-build/lib/libvorbisfiled.a
