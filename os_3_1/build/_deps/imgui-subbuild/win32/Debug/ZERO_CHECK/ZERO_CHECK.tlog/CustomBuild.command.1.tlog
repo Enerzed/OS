@@ -1,0 +1,10 @@
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SUBBUILD\CMAKEFILES\71914CBCA44B02FAE7F16927079F6F4A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild/imgui-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

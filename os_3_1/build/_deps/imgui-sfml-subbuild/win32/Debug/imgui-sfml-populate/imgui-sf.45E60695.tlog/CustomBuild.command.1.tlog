@@ -1,0 +1,150 @@
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\AC5EAF16131A20DCB313D2587E4713C9\IMGUI-SFML-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\CA694F28EEBB3DF61E95250F80B577D3\IMGUI-SFML-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug/imgui-sfml-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKEFILES\12A5BF2D5236F968B2E8D2567848F5D2\IMGUI-SFML-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\IMGUI-SFML-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

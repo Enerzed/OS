@@ -1,0 +1,3 @@
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.dir
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-subbuild/CMakeFiles/ZERO_CHECK.dir

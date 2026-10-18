@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0a2e33ac84524b8964c2a5da733f7afc/sfml-populate.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/74e05e0bff819536973dfe66d16dbb8c/sfml-populate-complete.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-build.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-configure.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-download.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-install.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-mkdir.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-patch.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-test.rule
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/0991c307a8d6e5e14d2184e4eb6ce03e/sfml-populate-update.rule

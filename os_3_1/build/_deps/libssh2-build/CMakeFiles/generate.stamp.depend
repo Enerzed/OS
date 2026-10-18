@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPack.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPackComponent.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckFunctionExists.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckIncludeFiles.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckSymbolExists.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FeatureSummary.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/pkgRedirects/mbedtls-config-version.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/pkgRedirects/mbedtls-config.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/CMakeLists.txt
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/CheckFunctionExistsMayNeedLibrary.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/CheckNonblockingSocketSupport.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/PickyWarnings.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/src/libssh2_config_cmake.h.in
