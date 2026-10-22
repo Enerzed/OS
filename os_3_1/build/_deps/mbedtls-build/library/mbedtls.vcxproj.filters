@@ -1,67 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\debug.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\debug.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\mps_reader.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\mps_reader.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\mps_trace.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\mps_trace.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\net_sockets.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\net_sockets.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_cache.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_cache.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_ciphersuites.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_ciphersuites.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_client.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_client.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_cookie.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_cookie.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_debug_helpers_generated.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_debug_helpers_generated.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_msg.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_msg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_ticket.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_ticket.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls12_client.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls12_client.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls12_server.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls12_server.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls13_keys.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls13_keys.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls13_server.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls13_server.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls13_client.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls13_client.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\ssl_tls13_generic.c">
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\ssl_tls13_generic.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\mbedtls-src\library\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\mbedtls-src\library\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{7D727907-3D63-3E6A-BFAD-F3C7C47D701F}</UniqueIdentifier>
+      <UniqueIdentifier>{3FDE98F9-B5D1-369C-80B2-1CC24D966197}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

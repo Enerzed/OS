@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{326FF3FB-69F6-36A6-8BD1-C72F1FF99869}</ProjectGuid>
+    <ProjectGuid>{132BD191-1409-3B88-9867-AB2601C3E17E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">PIPES.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">PIPES</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">PIPES.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">PIPES</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">PIPES.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">PIPES</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">PIPES.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">PIPES</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -112,10 +112,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;IMGUI_USER_CONFIG=\"imconfig-SFML.h\";SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -125,7 +125,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/fonts"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/fonts"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -142,9 +142,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/Debug/PIPES.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/Debug/PIPES.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/Debug/PIPES.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/Debug/PIPES.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -154,7 +154,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -181,10 +181,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_USER_CONFIG=\"imconfig-SFML.h\";SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,7 +194,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/fonts"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/fonts"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -211,9 +211,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/Release/PIPES.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/Release/PIPES.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/Release/PIPES.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/Release/PIPES.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -223,7 +223,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -250,10 +250,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_USER_CONFIG=\"imconfig-SFML.h\";SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -263,7 +263,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/fonts"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/fonts"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -280,9 +280,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/MinSizeRel/PIPES.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/MinSizeRel/PIPES.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/MinSizeRel/PIPES.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/MinSizeRel/PIPES.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -292,7 +292,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -318,10 +318,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;IMGUI_USER_CONFIG=\"imconfig-SFML.h\";SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -331,7 +331,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/fonts"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/fonts" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/fonts"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -348,9 +348,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/RelWithDebInfo/PIPES.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/RelWithDebInfo/PIPES.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/RelWithDebInfo/PIPES.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/RelWithDebInfo/PIPES.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -359,11 +359,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -372,11 +372,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -385,11 +385,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -398,11 +398,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -411,49 +411,49 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Interface.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Interface.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Pipes.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Pipes.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Server.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\Server.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\src\main.cpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Interface.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Interface.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Pipes.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Pipes.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Server.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\Server.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\src\main.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\ZERO_CHECK.vcxproj">
-      <Project>{FEC5C9FD-7AB9-3DE2-A006-B25380276624}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\ZERO_CHECK.vcxproj">
+      <Project>{CF794176-CC75-3EA2-8812-3262B83DA62E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build\ImGui-SFML.vcxproj">
-      <Project>{CD4833BB-32BC-3389-BE22-9B152DCD7F63}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-build\ImGui-SFML.vcxproj">
+      <Project>{2CE9406E-83C9-301F-80ED-1E88E74938F6}</Project>
       <Name>ImGui-SFML</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\freetype-build\freetype.vcxproj">
-      <Project>{1F8F99C8-07F7-3B48-99D1-6778EA439ACB}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{C39E5977-2A03-3DC2-8D78-E7757B11644C}</Project>
       <Name>freetype</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\harfbuzz-build\harfbuzz.vcxproj">
-      <Project>{0CD3806B-64B1-349E-8670-7299864CCDDD}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\harfbuzz-build\harfbuzz.vcxproj">
+      <Project>{F9AC67CD-B574-34FA-88CE-2158985FF4B5}</Project>
       <Name>harfbuzz</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{C53FCADF-48F1-310A-A7DB-3D7DD515F610}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{1659AB07-365B-3993-94B9-2C39C7A0ADE3}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{9C22C779-9FED-3439-A852-5318D7E6DFCD}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{C39C1E27-B26E-363E-9629-C1EEC3662D63}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{2D4A7ADC-0BEC-3633-BE57-9F30A0F0E242}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{F6E50D9D-7EDE-3D22-A40F-86DEFDA56B88}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

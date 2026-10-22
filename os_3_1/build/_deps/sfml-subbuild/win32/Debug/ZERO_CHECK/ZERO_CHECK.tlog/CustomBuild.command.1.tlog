@@ -1,6 +1,6 @@
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0A2E33AC84524B8964C2A5DA733F7AFC\GENERATE.STAMP.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\6BBD98F9C30E97BC266F947A3908709F\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate.slnx"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate.slnx"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

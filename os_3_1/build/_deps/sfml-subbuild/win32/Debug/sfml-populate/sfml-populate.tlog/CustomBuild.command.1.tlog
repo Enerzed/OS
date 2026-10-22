@@ -1,8 +1,8 @@
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-MKDIR.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-MKDIR.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -10,15 +10,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-DOWNLOAD.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-DOWNLOAD.RULE
 setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -26,13 +26,13 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-UPDATE.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-UPDATE.RULE
 setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -40,11 +40,11 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-PATCH.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-PATCH.RULE
 setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -52,31 +52,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-CONFIGURE.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-CONFIGURE.RULE
 setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build"
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-BUILD.RULE
-setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -84,15 +68,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-INSTALL.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-BUILD.RULE
 setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -100,15 +84,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0991C307A8D6E5E14D2184E4EB6CE03E\SFML-POPULATE-TEST.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-INSTALL.RULE
 setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -116,13 +100,15 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\74E05E0BFF819536973DFE66D16DBB8C\SFML-POPULATE-COMPLETE.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\9A291D61BE344BAA16402E86E5604E77\SFML-POPULATE-TEST.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/Debug"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"
+C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -130,7 +116,21 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\0A2E33AC84524B8964C2A5DA733F7AFC\SFML-POPULATE.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\D420667C354A9AE001133AB816AE329D\SFML-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\6BBD98F9C30E97BC266F947A3908709F\SFML-POPULATE.RULE
 setlocal
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
@@ -138,9 +138,9 @@ endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

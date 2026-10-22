@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9C22C779-9FED-3439-A852-5318D7E6DFCD}</ProjectGuid>
+    <ProjectGuid>{C39C1E27-B26E-363E-9629-C1EEC3662D63}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">sfml-system.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">sfml-system-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">sfml-system.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">sfml-system.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">sfml-system.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">sfml-system-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -106,15 +106,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Debug\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -127,8 +127,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -156,15 +156,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Release\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,8 +177,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -206,15 +206,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\MinSizeRel\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -227,8 +227,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/extlibs/headers/cpp-unicodelib" /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928 /utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -255,15 +255,15 @@
       <WarningLevel>Level4</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-system-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\extlibs\headers\cpp-unicodelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -275,11 +275,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,12 +287,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -300,12 +300,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -313,12 +313,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/src/SFML/System/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -326,54 +326,54 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Dependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\src\SFML\System\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\String.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\String.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\String.inl" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Time.inl" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\TimeoutWithPredicate.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\TimeoutWithPredicate.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Version.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\Version.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Angle.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Angle.inl" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\EnumArray.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Exception.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\String.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Time.inl" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\TimeoutWithPredicate.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\TimeoutWithPredicate.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Utils.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Utils.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Version.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\Version.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\include\SFML\System\SuspendAwareClock.hpp" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\ZERO_CHECK.vcxproj">
-      <Project>{FEC5C9FD-7AB9-3DE2-A006-B25380276624}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\ZERO_CHECK.vcxproj">
+      <Project>{CF794176-CC75-3EA2-8812-3262B83DA62E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

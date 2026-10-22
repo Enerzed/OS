@@ -4,6 +4,6 @@ message(VERBOSE "Executing update step for harfbuzz")
 
 block(SCOPE_FOR VARIABLES)
 
-include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/fc-tmp/harfbuzz/harfbuzz-gitupdate.cmake")
+include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/CMakeFiles/fc-tmp/harfbuzz/harfbuzz-gitupdate.cmake")
 
 endblock()

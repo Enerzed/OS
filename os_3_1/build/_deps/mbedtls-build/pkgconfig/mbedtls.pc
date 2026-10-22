@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/OS3
+prefix=C:/Program Files (x86)/OS3_1
 includedir=${prefix}/include
 libdir=${prefix}/lib
 

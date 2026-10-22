@@ -1,6 +1,6 @@
-^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3\BUILD\CMAKEFILES\957816861A298CC1BC11A412DC2FC327\GENERATE.STAMP.RULE
+^C:\USERS\LASKE\DESKTOP\ЛАБЫ\ПРОЕКТИРОВАНИЕ ОПЕРАЦИОННЫХ СИСТЕМ\OS\OS_3_1\BUILD\CMAKEFILES\646EBE13F983E70397E07C4D6DE972E7\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/OS3.slnx"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/OS3_1.slnx"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

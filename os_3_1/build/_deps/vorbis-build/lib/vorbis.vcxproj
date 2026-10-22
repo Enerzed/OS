@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{914FA641-4067-3D64-A56F-946F22CFE08E}</ProjectGuid>
+    <ProjectGuid>{78DE4E09-EDF2-3854-9956-350D4F92D4B2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">vorbis.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">vorbisd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">vorbis.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">vorbis.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">vorbis.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">vorbis</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -147,10 +147,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,7 +163,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -190,10 +190,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,7 +206,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -w</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -232,10 +232,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-src\include;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -247,11 +247,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,12 +259,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -272,12 +272,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,12 +285,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-src/lib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -298,8 +298,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\cmake\VorbisConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-build\lib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -307,59 +307,59 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <EnableUnitySupport>true</EnableUnitySupport>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-build\lib\CMakeFiles\vorbis.dir\Unity\unity_0_c.c" IncludeInUnityFile="false" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\envelope.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lpc.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lsp.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\codebook.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\misc.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\psy.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\masking.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\os.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\mdct.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\smallft.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\highlevel.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\registry.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\scales.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\window.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lookup.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lookup_data.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\codec_internal.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\backends.h" />
-    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\bitrate.h" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\mdct.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\smallft.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\block.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\envelope.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\window.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lsp.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lpc.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\analysis.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\synthesis.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\psy.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\info.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\floor1.c" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\floor0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\res0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\mapping0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\registry.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\codebook.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\sharedbook.c" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\lookup.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\bitrate.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
-    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\lib\vorbisenc.c" />
-    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\vorbis-src\win32\vorbis.def" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-build\lib\CMakeFiles\vorbis.dir\Unity\unity_0_c.c" IncludeInUnityFile="false" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\envelope.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lpc.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lsp.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\codebook.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\misc.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\psy.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\masking.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\os.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\mdct.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\smallft.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\highlevel.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\registry.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\scales.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\window.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lookup.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lookup_data.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\codec_internal.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\backends.h" />
+    <ClInclude Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\bitrate.h" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\mdct.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\smallft.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\block.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\envelope.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\window.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lsp.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lpc.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\analysis.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\synthesis.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\psy.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\info.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\floor1.c" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\floor0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\res0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\mapping0.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\registry.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\codebook.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\sharedbook.c" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\lookup.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\bitrate.c" IncludeInUnityFile="true" CustomUnityFile="true" UnityFilesDirectory="C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/vorbis-build/lib/CMakeFiles/vorbis.dir/Unity" />
+    <ClCompile Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\lib\vorbisenc.c" />
+    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\vorbis-src\win32\vorbis.def" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\ZERO_CHECK.vcxproj">
-      <Project>{FEC5C9FD-7AB9-3DE2-A006-B25380276624}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\ZERO_CHECK.vcxproj">
+      <Project>{CF794176-CC75-3EA2-8812-3262B83DA62E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\ogg-build\ogg.vcxproj">
-      <Project>{7DA287C9-C1E3-371D-BF75-30FBA69A5E3C}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{805543B1-79CF-3D6A-AFAE-B51F02CED332}</Project>
       <Name>ogg</Name>
     </ProjectReference>
   </ItemGroup>

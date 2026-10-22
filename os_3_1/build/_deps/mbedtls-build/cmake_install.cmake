@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-src
+# Install script for directory: C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OS3")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OS3_1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,8 +34,8 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/cmake/MbedTLSConfig.cmake"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/cmake/MbedTLSConfigVersion.cmake"
+    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/cmake/MbedTLSConfig.cmake"
+    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/cmake/MbedTLSConfigVersion.cmake"
     )
 endif()
 
@@ -43,7 +43,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS/MbedTLSTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS/MbedTLSTargets.cmake"
-         "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets.cmake")
+         "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS/MbedTLSTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -56,33 +56,33 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-minsizerel.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-relwithdebinfo.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MbedTLS" TYPE FILE FILES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/CMakeFiles/Export/501c3fe65339b3965ef28cb8bf064996/MbedTLSTargets-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/framework/cmake_install.cmake")
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/include/cmake_install.cmake")
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/library/cmake_install.cmake")
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/pkgconfig/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/framework/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/include/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/library/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/pkgconfig/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-build/install_local_manifest.txt"
+  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

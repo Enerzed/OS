@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\src\Debug\PIPES.exe</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\src\Debug\PIPES.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

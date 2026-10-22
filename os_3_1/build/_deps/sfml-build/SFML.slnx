@@ -8,7 +8,7 @@
 		<Platform Name="win32"/>
 	</Configurations>
 	<Folder Name="/CMake/">
-		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="deccd36d-2245-37b2-9f88-5b7c45515a99" DefaultStartup="true">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f4c34778-fc05-3b52-97b9-561c1792b9d4" DefaultStartup="true">
 			<BuildDependency Project="../flac-build/src/libFLAC/FLAC.vcxproj"/>
 			<BuildDependency Project="../sheenbidi-build/SheenBidi.vcxproj"/>
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
@@ -29,7 +29,7 @@
 			<BuildDependency Project="../vorbis-build/lib/vorbisenc.vcxproj"/>
 			<BuildDependency Project="../vorbis-build/lib/vorbisfile.vcxproj"/>
 		</Project>
-		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7b597cb0-2da6-3946-9fcf-9aa683720591">
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c0b28453-8aa2-34b1-af5c-d5eba9967193">
 			<BuildDependency Project="ALL_BUILD.vcxproj"/>
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
@@ -37,7 +37,7 @@
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="08b12743-825f-3414-a9b6-8eff3a4ac130">
+		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="359f4d42-a631-3be0-9d8f-1148b5e9c95d">
 			<BuildDependency Project="ALL_BUILD.vcxproj"/>
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
@@ -45,31 +45,31 @@
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fec5c9fd-7ab9-3de2-a006-b25380276624"/>
+		<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cf794176-cc75-3ea2-8812-3262b83da62e"/>
 	</Folder>
 	<Folder Name="/CTestDashboardTargets/">
-		<Project Path="../sheenbidi-build/Continuous.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8f65615b-037c-37c5-9868-1ba635c40347">
+		<Project Path="../sheenbidi-build/Continuous.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1caae7ae-659e-3b34-97ac-8e09c81b2545">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="../sheenbidi-build/Experimental.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5604711d-98f8-32e9-9c6d-232268806aff">
+		<Project Path="../sheenbidi-build/Experimental.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="02b1650f-1180-3eef-ba40-8752a247c0f8">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="../sheenbidi-build/Nightly.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0436b010-503c-3c91-aa95-e3e9c6fdd6de">
+		<Project Path="../sheenbidi-build/Nightly.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="dcf0ca2a-fa72-3ea3-9768-2d0290a7292d">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
 			<Build Solution="MinSizeRel|*" Project="false"/>
 			<Build Solution="RelWithDebInfo|*" Project="false"/>
 		</Project>
-		<Project Path="../sheenbidi-build/NightlyMemoryCheck.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c92aecb6-9d19-3e5c-94e1-b0c9b0138cb6">
+		<Project Path="../sheenbidi-build/NightlyMemoryCheck.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ed4fe6c6-1263-311b-9f74-432d04cc0755">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<Build Solution="Debug|*" Project="false"/>
 			<Build Solution="Release|*" Project="false"/>
@@ -78,55 +78,55 @@
 		</Project>
 	</Folder>
 	<Folder Name="/Dependencies/">
-		<Project Path="../flac-build/src/libFLAC/FLAC.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f16a8a2b-c8cd-31c7-8b47-6b87e5bd66bd">
+		<Project Path="../flac-build/src/libFLAC/FLAC.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1d7efd4f-7725-3b82-aac5-88153070dbd6">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../ogg-build/ogg.vcxproj"/>
 		</Project>
-		<Project Path="../sheenbidi-build/SheenBidi.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6c7cf0da-b0e3-32b7-bd38-946acccec6d6">
+		<Project Path="../sheenbidi-build/SheenBidi.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e5593be8-9007-3eab-aaba-3e83673201d0">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="../freetype-build/freetype.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1f8f99c8-07f7-3b48-99d1-6778ea439acb">
+		<Project Path="../freetype-build/freetype.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c39e5977-2a03-3dc2-8d78-e7757b11644c">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="../harfbuzz-build/harfbuzz.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0cd3806b-64b1-349e-8670-7299864ccddd">
+		<Project Path="../harfbuzz-build/harfbuzz.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f9ac67cd-b574-34fa-88ce-2158985ff4b5">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../freetype-build/freetype.vcxproj"/>
 		</Project>
-		<Project Path="../libssh2-build/src/libssh2_static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b25d5822-7973-3848-bf05-908dee788759">
+		<Project Path="../libssh2-build/src/libssh2_static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="775f01ab-c4ca-37dd-8807-023c35c396ef">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="../mbedtls-build/library/mbedcrypto.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="cf0abdf2-d358-37d5-891f-e5ccb5bec002">
+		<Project Path="../mbedtls-build/library/mbedcrypto.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4dcb0749-97a8-316e-85d8-39dbc6184ddd">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="../mbedtls-build/library/mbedtls.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="20354051-5211-3fb1-ba5b-fd58dbde8ff3">
+		<Project Path="../mbedtls-build/library/mbedtls.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f9732034-89ca-3606-9d7e-8a26bac95e18">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../mbedtls-build/library/mbedcrypto.vcxproj"/>
 			<BuildDependency Project="../mbedtls-build/library/mbedx509.vcxproj"/>
 		</Project>
-		<Project Path="../mbedtls-build/library/mbedx509.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4ca4241d-e376-3483-a167-59ad9e2f3418">
+		<Project Path="../mbedtls-build/library/mbedx509.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="20b95273-a45a-3176-8b89-e83d0378367b">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../mbedtls-build/library/mbedcrypto.vcxproj"/>
 		</Project>
-		<Project Path="../ogg-build/ogg.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7da287c9-c1e3-371d-bf75-30fba69a5e3c">
+		<Project Path="../ogg-build/ogg.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="805543b1-79cf-3d6a-afae-b51f02ced332">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="../vorbis-build/lib/vorbis.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="914fa641-4067-3d64-a56f-946f22cfe08e">
+		<Project Path="../vorbis-build/lib/vorbis.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="78de4e09-edf2-3854-9956-350d4f92d4b2">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../ogg-build/ogg.vcxproj"/>
 		</Project>
-		<Project Path="../vorbis-build/lib/vorbisenc.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1c619c72-b8d9-3580-904b-7fb7dfee8985">
+		<Project Path="../vorbis-build/lib/vorbisenc.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="53de95a9-41c3-36d1-954c-b12ab77ccfdd">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../ogg-build/ogg.vcxproj"/>
 			<BuildDependency Project="../vorbis-build/lib/vorbis.vcxproj"/>
 		</Project>
-		<Project Path="../vorbis-build/lib/vorbisfile.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5355ecb7-96dc-3b46-9ff1-9750df10a7ce">
+		<Project Path="../vorbis-build/lib/vorbisfile.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="de4711eb-eb73-314e-836e-9507ca853dcd">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../ogg-build/ogg.vcxproj"/>
 			<BuildDependency Project="../vorbis-build/lib/vorbis.vcxproj"/>
 		</Project>
 	</Folder>
 	<Folder Name="/SFML/">
-		<Project Path="src/SFML/Audio/sfml-audio.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2ba46f34-b862-3175-ab28-b5345f23f545">
+		<Project Path="src/SFML/Audio/sfml-audio.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a2b19ac8-0332-3b2c-82e8-a2a62d09c876">
 			<BuildDependency Project="../flac-build/src/libFLAC/FLAC.vcxproj"/>
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../ogg-build/ogg.vcxproj"/>
@@ -135,7 +135,7 @@
 			<BuildDependency Project="../vorbis-build/lib/vorbisenc.vcxproj"/>
 			<BuildDependency Project="../vorbis-build/lib/vorbisfile.vcxproj"/>
 		</Project>
-		<Project Path="src/SFML/Graphics/sfml-graphics.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c53fcadf-48f1-310a-a7db-3d7dd515f610">
+		<Project Path="src/SFML/Graphics/sfml-graphics.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1659ab07-365b-3993-94b9-2c39c7a0ade3">
 			<BuildDependency Project="../sheenbidi-build/SheenBidi.vcxproj"/>
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../freetype-build/freetype.vcxproj"/>
@@ -143,10 +143,10 @@
 			<BuildDependency Project="src/SFML/System/sfml-system.vcxproj"/>
 			<BuildDependency Project="src/SFML/Window/sfml-window.vcxproj"/>
 		</Project>
-		<Project Path="src/SFML/Main/sfml-main.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="51bb6fdf-91d6-30ab-8b5a-420d59fc7dbc">
+		<Project Path="src/SFML/Main/sfml-main.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="14ae1355-31e8-3f3f-a8e4-9467bd0fa028">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="src/SFML/Network/sfml-network.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bb1c809f-a069-316c-a629-58b1c620523b">
+		<Project Path="src/SFML/Network/sfml-network.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="92fbe1c2-cf7a-3049-97df-f8035401dad9">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="../libssh2-build/src/libssh2_static.vcxproj"/>
 			<BuildDependency Project="../mbedtls-build/library/mbedcrypto.vcxproj"/>
@@ -154,10 +154,10 @@
 			<BuildDependency Project="../mbedtls-build/library/mbedx509.vcxproj"/>
 			<BuildDependency Project="src/SFML/System/sfml-system.vcxproj"/>
 		</Project>
-		<Project Path="src/SFML/System/sfml-system.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9c22c779-9fed-3439-a852-5318d7e6dfcd">
+		<Project Path="src/SFML/System/sfml-system.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c39c1e27-b26e-363e-9629-c1eec3662d63">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 		</Project>
-		<Project Path="src/SFML/Window/sfml-window.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2d4a7adc-0bec-3633-be57-9f30a0f0e242">
+		<Project Path="src/SFML/Window/sfml-window.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f6e50d9d-7ede-3d22-a40f-86defda56b88">
 			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
 			<BuildDependency Project="src/SFML/System/sfml-system.vcxproj"/>
 		</Project>

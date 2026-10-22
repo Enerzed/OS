@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-download.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-update.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-build.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-install.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0991c307a8d6e5e14d2184e4eb6ce03e\sfml-populate-test.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\9a291d61be344baa16402e86e5604e77\sfml-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\74e05e0bff819536973dfe66d16dbb8c\sfml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\d420667c354a9ae001133ab816ae329d\sfml-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\0a2e33ac84524b8964c2a5da733f7afc\sfml-populate.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\6bbd98f9c30e97bc266f947a3908709f\sfml-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{68E6F3B9-FC3D-367C-A58F-B8B9638CEBB2}</UniqueIdentifier>
+      <UniqueIdentifier>{45349EBB-DF8B-3AF1-A4AC-7842543FBC89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

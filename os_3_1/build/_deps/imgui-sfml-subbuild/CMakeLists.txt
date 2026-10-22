@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(imgui-sfml-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/SFML/imgui-sfml" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "5e8f8fb857c8f3cff1096bf3e4402c64e3bcf6af"
-                    SOURCE_DIR          "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-src"
-                    BINARY_DIR          "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-build"
+                    SOURCE_DIR          "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-src"
+                    BINARY_DIR          "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

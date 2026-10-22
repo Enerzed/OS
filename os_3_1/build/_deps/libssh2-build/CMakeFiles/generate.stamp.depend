@@ -11,10 +11,10 @@ C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensio
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FeatureSummary.cmake
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
 C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/pkgRedirects/mbedtls-config-version.cmake
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/pkgRedirects/mbedtls-config.cmake
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/CMakeLists.txt
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/CheckFunctionExistsMayNeedLibrary.cmake
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/CheckNonblockingSocketSupport.cmake
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/cmake/PickyWarnings.cmake
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/libssh2-src/src/libssh2_config_cmake.h.in
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/CMakeFiles/pkgRedirects/mbedtls-config-version.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/CMakeFiles/pkgRedirects/mbedtls-config.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/CMakeLists.txt
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/cmake/CheckFunctionExistsMayNeedLibrary.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/cmake/CheckNonblockingSocketSupport.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/cmake/PickyWarnings.cmake
+C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/src/libssh2_config_cmake.h.in

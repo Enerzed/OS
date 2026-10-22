@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 ###########################################################################
 
-prefix=C:/Program Files (x86)/OS3
+prefix=C:/Program Files (x86)/OS3_1
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

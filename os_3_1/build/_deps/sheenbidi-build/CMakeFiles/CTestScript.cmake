@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.3.1-msvc1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sheenbidi-src")
-set(CTEST_BINARY_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sheenbidi-build")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sheenbidi-src")
+set(CTEST_BINARY_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sheenbidi-build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")

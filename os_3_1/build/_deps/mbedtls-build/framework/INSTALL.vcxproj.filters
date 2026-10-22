@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\CMakeFiles\1bf4dc7d49f6b439375d9a5419af9f92\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\CMakeFiles\a11ec01cfc525876febb1a1363d47be1\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B8C8AB33-93BB-3C61-B92A-2CFEE965BA7C}</UniqueIdentifier>
+      <UniqueIdentifier>{2ADB4597-9996-3950-B4DF-A2C771F67F4E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

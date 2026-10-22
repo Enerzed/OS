@@ -50,7 +50,7 @@ unset(_cmake_expected_targets)
 add_library(MbedTLS::mbedcrypto STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-src/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-src/include/"
   INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt"
 )
 
@@ -58,7 +58,7 @@ set_target_properties(MbedTLS::mbedcrypto PROPERTIES
 add_library(MbedTLS::mbedx509 STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-src/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-src/include/"
   INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt;MbedTLS::mbedcrypto"
 )
 
@@ -66,7 +66,7 @@ set_target_properties(MbedTLS::mbedx509 PROPERTIES
 add_library(MbedTLS::mbedtls STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedtls PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-src/include/"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-src/include/"
   INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt;MbedTLS::mbedx509"
 )
 
@@ -74,84 +74,84 @@ set_target_properties(MbedTLS::mbedtls PROPERTIES
 set_property(TARGET MbedTLS::mbedcrypto APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Debug/mbedcryptod.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Debug/mbedcryptod.lib"
   )
 
 # Import target "MbedTLS::mbedx509" for configuration "Debug"
 set_property(TARGET MbedTLS::mbedx509 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Debug/mbedx509d.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Debug/mbedx509d.lib"
   )
 
 # Import target "MbedTLS::mbedtls" for configuration "Debug"
 set_property(TARGET MbedTLS::mbedtls APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(MbedTLS::mbedtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Debug/mbedtlsd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Debug/mbedtlsd.lib"
   )
 
 # Import target "MbedTLS::mbedcrypto" for configuration "Release"
 set_property(TARGET MbedTLS::mbedcrypto APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Release/mbedcrypto.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Release/mbedcrypto.lib"
   )
 
 # Import target "MbedTLS::mbedx509" for configuration "Release"
 set_property(TARGET MbedTLS::mbedx509 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Release/mbedx509.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Release/mbedx509.lib"
   )
 
 # Import target "MbedTLS::mbedtls" for configuration "Release"
 set_property(TARGET MbedTLS::mbedtls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(MbedTLS::mbedtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/Release/mbedtls.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Release/mbedtls.lib"
   )
 
 # Import target "MbedTLS::mbedcrypto" for configuration "MinSizeRel"
 set_property(TARGET MbedTLS::mbedcrypto APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/MinSizeRel/mbedcrypto.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/MinSizeRel/mbedcrypto.lib"
   )
 
 # Import target "MbedTLS::mbedx509" for configuration "MinSizeRel"
 set_property(TARGET MbedTLS::mbedx509 APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/MinSizeRel/mbedx509.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/MinSizeRel/mbedx509.lib"
   )
 
 # Import target "MbedTLS::mbedtls" for configuration "MinSizeRel"
 set_property(TARGET MbedTLS::mbedtls APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(MbedTLS::mbedtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/MinSizeRel/mbedtls.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/MinSizeRel/mbedtls.lib"
   )
 
 # Import target "MbedTLS::mbedcrypto" for configuration "RelWithDebInfo"
 set_property(TARGET MbedTLS::mbedcrypto APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/RelWithDebInfo/mbedcrypto.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/RelWithDebInfo/mbedcrypto.lib"
   )
 
 # Import target "MbedTLS::mbedx509" for configuration "RelWithDebInfo"
 set_property(TARGET MbedTLS::mbedx509 APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/RelWithDebInfo/mbedx509.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/RelWithDebInfo/mbedx509.lib"
   )
 
 # Import target "MbedTLS::mbedtls" for configuration "RelWithDebInfo"
 set_property(TARGET MbedTLS::mbedtls APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(MbedTLS::mbedtls PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/sfml-build/lib/RelWithDebInfo/mbedtls.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/RelWithDebInfo/mbedtls.lib"
   )
 
 # This file does not depend on other imported targets which have

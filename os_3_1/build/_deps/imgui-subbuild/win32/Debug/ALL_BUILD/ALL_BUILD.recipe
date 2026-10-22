@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-subbuild\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-subbuild\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-subbuild\Debug\imgui-populate</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-subbuild\Debug\imgui-populate</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-subbuild\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-subbuild\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

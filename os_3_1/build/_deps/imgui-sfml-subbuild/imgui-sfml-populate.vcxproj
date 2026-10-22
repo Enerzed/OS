@@ -10,7 +10,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{45E60695-3469-3B07-B611-B874C38FD8B7}</ProjectGuid>
+    <ProjectGuid>{B5323730-22E8-3B00-B2C5-731E6844AA30}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -46,13 +46,13 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-mkdir.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-mkdir.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Creating directories for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-mkdirs.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-mkdirs.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-mkdir"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-mkdir"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -61,21 +61,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-download.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-download.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing download step (git clone) for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitclone.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitclone.cmake"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-download"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-download"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -83,20 +83,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-gitinfo.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-gitinfo.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-update.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-update.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Performing update step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-src"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/tmp/imgui-sfml-populate-gitupdate.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -104,19 +104,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-gitupdate.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-update-info.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-gitupdate.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-update-info.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-patch.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-patch.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No patch step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-patch"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-patch"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,24 +124,24 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-patch-info.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\imgui-sfml-populate-patch-info.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-configure.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-configure.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No configure step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-configure"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-configure"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -149,23 +149,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-cfgcmd.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-cfgcmd.txt;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-build.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-build.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No build step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-build"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-build"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -173,23 +173,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-install.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-install.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No install step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-install"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-install"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,23 +197,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ac5eaf16131a20dcb313d2587e4713c9\imgui-sfml-populate-test.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\cb41740e10fb5b9c77402f7bd4c4bad5\imgui-sfml-populate-test.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">No test step for 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-build"
+cd "C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-build"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
 "C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-test"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-test"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -221,21 +221,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-test</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-test</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\ca694f28eebb3df61e95250f80b577d3\imgui-sfml-populate-complete.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\ca0bed760a5c9a93eea4cebfb3aa4a23\imgui-sfml-populate-complete.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Completed 'imgui-sfml-populate'</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug/imgui-sfml-populate-complete"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/Debug/imgui-sfml-populate-complete"
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-done"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/Debug/imgui-sfml-populate-done"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,14 +243,14 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\Debug\imgui-sfml-populate-complete</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-install;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-mkdir;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-download;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-update;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-patch;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-configure;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-build;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\src\imgui-sfml-populate-stamp\Debug\imgui-sfml-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\Debug\imgui-sfml-populate-complete</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\12a5bf2d5236f968b2e8d2567848f5d2\imgui-sfml-populate.rule">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\6c2c4c393033e5a5426e6abdbe16b4b5\imgui-sfml-populate.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
@@ -260,18 +260,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\Debug\imgui-sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\imgui-sfml-populate</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\Debug\imgui-sfml-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\imgui-sfml-populate</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/imgui-sfml-subbuild/CMakeFiles/generate.stamp"
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild" "-BC:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild" --check-stamp-file "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,19 +279,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeDetermineSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystem.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\PatchInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\UpdateInfo.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\cfgcmd.txt.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitclone.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\gitupdate.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\mkdirs.cmake.in;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\ExternalProject\shared_internal_commands.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\4.3.1-msvc1\CMakeSystem.cmake;C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\imgui-sfml-populate-prefix\tmp\imgui-sfml-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\CMakeFiles\imgui-sfml-populate">
+    <None Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\CMakeFiles\imgui-sfml-populate">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3\build\_deps\imgui-sfml-subbuild\ZERO_CHECK.vcxproj">
-      <Project>{E146A124-39AC-3106-A121-3B0756EF0FB0}</Project>
+    <ProjectReference Include="C:\Users\laske\Desktop\Лабы\Проектирование операционных систем\OS\os_3_1\build\_deps\imgui-sfml-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{90624C3E-0990-3BE8-9130-3E62D3292EB8}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

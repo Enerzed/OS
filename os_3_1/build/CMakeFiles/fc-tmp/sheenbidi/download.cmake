@@ -4,6 +4,6 @@ message(VERBOSE "Executing download step for sheenbidi")
 
 block(SCOPE_FOR VARIABLES)
 
-include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/CMakeFiles/fc-tmp/sheenbidi/sheenbidi-gitclone.cmake")
+include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/CMakeFiles/fc-tmp/sheenbidi/sheenbidi-gitclone.cmake")
 
 endblock()

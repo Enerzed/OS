@@ -3,15 +3,12 @@
  */
 
 #pragma execution_character_set("utf-8")
-#include "Server.hpp"
-
+#include "Client.hpp"
 
 int main()
 {
-    // Encoding
     system("chcp 65001");
-    // Running Server
-    Server* server = new Server();
-    server->Run();
+    Client* client = new Client();
+    client->Run();
     return 0;
 }

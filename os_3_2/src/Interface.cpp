@@ -8,17 +8,36 @@
 
 namespace
 {
-    // Автоматическая защита от переполнения буфера:
-    // как только строк становится больше — старые отбрасываются.
     constexpr size_t MAX_LINES_PER_BOX = 2000;
 
-    // Жёсткий layout под окно 720×720. Двух боксов достаточно.
+    // Пропорциональный layout: 25% высоты сверху (log), остальное — chat.
+    // Работает при любом размере окна, одинаково для сервера и клиента.
     struct Layout { ImVec2 pos; ImVec2 size; };
-    constexpr size_t LAYOUT_COUNT = 2;
-    const Layout LAYOUTS[LAYOUT_COUNT] = {
-        { ImVec2(8.0f,   8.0f), ImVec2(704.0f, 180.0f) }, // Server log
-        { ImVec2(8.0f, 196.0f), ImVec2(704.0f, 516.0f) }, // Chat
-    };
+
+    Layout computeLayout(size_t index, size_t total)
+    {
+        const float margin = 8.0f;
+        const float gap    = 8.0f;
+
+        ImVec2 windowSize = ImGui::GetIO().DisplaySize;
+        float usableW = windowSize.x - 2.0f * margin;
+        float usableH = windowSize.y - 2.0f * margin - gap * (float)(total - 1);
+
+        if (total == 2)
+        {
+            float topH = usableH * 0.25f;
+            float botH = usableH - topH;
+            if (index == 0) return { { margin, margin },                    { usableW, topH } };
+            else            return { { margin, margin + topH + gap },       { usableW, botH } };
+        }
+
+        // fallback: делим поровну
+        float each = usableH / (float)total;
+        return {
+            { margin, margin + (each + gap) * (float)index },
+            { usableW, each }
+        };
+    }
 }
 
 void Interface::Init(sf::RenderWindow& window)
@@ -57,14 +76,22 @@ void Interface::AddTextBox(unsigned short id, const std::string& title)
     if (!title.empty()) boxes[id].title = title;
 }
 
+void Interface::SetTextBoxInput(unsigned short id, SendCallback onSend, const char* hint)
+{
+    ensureBox(id);
+    auto& box = boxes[id];
+    box.input.active = true;
+    box.input.onSend = std::move(onSend);
+    if (hint) box.input.hint = hint;
+    box.input.buffer[0] = '\0';
+}
+
 void Interface::pushLine(unsigned short id, std::string line)
 {
     ensureBox(id);
     auto& box = boxes[id];
     box.messages.push_back(std::move(line));
 
-    // Автоматическая обрезка: старые сообщения отбрасываются,
-    // как только буфер переполнен.
     if (box.messages.size() > MAX_LINES_PER_BOX)
     {
         box.messages.erase(
@@ -75,10 +102,8 @@ void Interface::pushLine(unsigned short id, std::string line)
 
 void Interface::TextBoxMessage(const std::string& name, const std::string& msg, unsigned short id)
 {
-    if (name.empty())
-        pushLine(id, msg);
-    else
-        pushLine(id, name + ": " + msg);
+    if (name.empty()) pushLine(id, msg);
+    else              pushLine(id, name + ": " + msg);
 }
 
 void Interface::TextBoxSystemMessage(const std::string& msg, unsigned short id)
@@ -86,29 +111,60 @@ void Interface::TextBoxSystemMessage(const std::string& msg, unsigned short id)
     pushLine(id, "[system] " + msg);
 }
 
+void Interface::renderInputRow(size_t index, TextBox& box)
+{
+    if (box.input.refocus)
+    {
+        ImGui::SetKeyboardFocusHere();
+        box.input.refocus = false;
+    }
+
+    ImGui::SetNextItemWidth(-100.0f);
+    bool submit = ImGui::InputTextWithHint(
+        ("##input_" + std::to_string(index)).c_str(),
+        box.input.hint.c_str(),
+        box.input.buffer,
+        sizeof(box.input.buffer),
+        ImGuiInputTextFlags_EnterReturnsTrue);
+
+    ImGui::SameLine();
+    if (ImGui::Button(("Send##btn_" + std::to_string(index)).c_str()))
+        submit = true;
+
+    if (submit && box.input.buffer[0] != '\0')
+    {
+        if (box.input.onSend) box.input.onSend(std::string(box.input.buffer));
+        box.input.buffer[0] = '\0';
+        box.input.refocus = true;
+    }
+}
+
 void Interface::Render()
 {
-    const size_t count = boxes.size() < LAYOUT_COUNT ? boxes.size() : LAYOUT_COUNT;
+    const size_t count = boxes.size();
 
     for (size_t i = 0; i < count; ++i)
     {
         auto& box = boxes[i];
         std::string title = box.title + "###box_" + std::to_string(i);
 
-        // Фиксированные позиция и размер. NoMove/NoResize запрещают
-        // пользователю перетаскивать и тянуть за угол.
-        ImGui::SetNextWindowPos(LAYOUTS[i].pos);
-        ImGui::SetNextWindowSize(LAYOUTS[i].size);
+        Layout L = computeLayout(i, count);
+        ImGui::SetNextWindowPos(L.pos);
+        ImGui::SetNextWindowSize(L.size);
 
         if (ImGui::Begin(
                 title.c_str(),
                 nullptr,
                 ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize))
         {
-            const float footer = ImGui::GetFrameHeightWithSpacing();
+            const float footerLine = ImGui::GetFrameHeightWithSpacing();
+            const float inputBlock = box.input.active
+                ? (footerLine + ImGui::GetStyle().ItemSpacing.y)
+                : 0.0f;
+
             ImGui::BeginChild(
                 ("##scroll_" + std::to_string(i)).c_str(),
-                ImVec2(0, -footer),
+                ImVec2(0, -footerLine - inputBlock),
                 true);
 
             for (const auto& line : box.messages)
@@ -119,7 +175,6 @@ void Interface::Render()
             {
                 ImGui::SetScrollHereY(1.0f);
             }
-
             ImGui::EndChild();
 
             ImGui::Checkbox(
@@ -128,6 +183,9 @@ void Interface::Render()
             ImGui::SameLine();
             if (ImGui::Button(("Clear##" + std::to_string(i)).c_str()))
                 box.messages.clear();
+
+            if (box.input.active)
+                renderInputRow(i, box);
         }
         ImGui::End();
     }

@@ -1,9 +1,9 @@
 # ogg pkg-config file
 
-prefix=C:/Program Files (x86)/OS3
-exec_prefix=C:/Program Files (x86)/OS3/bin
-libdir=C:/Program Files (x86)/OS3/lib
-includedir=C:/Program Files (x86)/OS3/include
+prefix=C:/Program Files (x86)/OS3_1
+exec_prefix=C:/Program Files (x86)/OS3_1/bin
+libdir=C:/Program Files (x86)/OS3_1/lib
+includedir=C:/Program Files (x86)/OS3_1/include
 
 Name: ogg
 Description: ogg is a library for manipulating ogg bitstreams

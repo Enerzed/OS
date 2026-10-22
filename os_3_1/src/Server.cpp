@@ -101,6 +101,7 @@ void Server::ReadClientThread(Pipes* pipe)
     std::string data;
     while (running && pipe->Read(data))
     {
+        Log("[debug] Server received: " + data);
         std::lock_guard lock(incomingMutex);
         incoming.push({ pipe, std::move(data) });
         data.clear();

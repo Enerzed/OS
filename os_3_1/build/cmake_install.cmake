@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3
+# Install script for directory: C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OS3")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OS3_1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/deps/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/deps/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/src/cmake_install.cmake")
+  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/src/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

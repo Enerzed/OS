@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-tmp/mbedtls-3.6.5.tar.bz2" ABSOLUTE)
-get_filename_component(directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3/build/_deps/mbedtls-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-tmp/mbedtls-3.6.5.tar.bz2" ABSOLUTE)
+get_filename_component(directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/mbedtls-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'
