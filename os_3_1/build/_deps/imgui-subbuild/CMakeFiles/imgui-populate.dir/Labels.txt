@@ -1,14 +1,14 @@
 # Target labels
  imgui-populate
 # Source files and their labels
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/7148c84c7edab729aba205aac7c3c8aa/imgui-populate.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/ed8a913b9fc0475abdbf36629b305a99/imgui-populate-complete.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-build.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-configure.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-download.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-install.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-mkdir.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-patch.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-test.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/bee18a1d40c3cc95dff4d725ab0429e2/imgui-populate-update.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate-complete.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-build.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-configure.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-download.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-install.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-mkdir.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-patch.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-test.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-subbuild/imgui-populate-prefix/src/imgui-populate-stamp/imgui-populate-update.rule

@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(VERBOSE "verifying file...
-       file='C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'")
+       file='/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'")
 
-  file("SHA256" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz" actual_value)
+  file("SHA256" "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "10c3a28bf3099b2a4a6c21a7f4a180fb1bacf5ee6560ccc5542e62f762b2f4f1")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(VERBOSE "SHA256 hash of
-    C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz
+    /Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz
   does not match expected value
     expected: '10c3a28bf3099b2a4a6c21a7f4a180fb1bacf5ee6560ccc5542e62f762b2f4f1'
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
+if(EXISTS "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(VERBOSE "File already exists and hash match (skip download):
-  file='C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
+  file='/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
   SHA256='10c3a28bf3099b2a4a6c21a7f4a180fb1bacf5ee6560ccc5542e62f762b2f4f1'"
       )
       return()
     else()
       message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
+      file(REMOVE "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
     endif()
   else()
     message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
+  file='/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
+    file(REMOVE "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(VERBOSE "Downloading...
-   dst='C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
+   dst='/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz"
+        "${url}" "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz"
         
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -136,7 +136,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
+          file(REMOVE "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz")
         else()
           message(VERBOSE "Downloading... done")
           return()

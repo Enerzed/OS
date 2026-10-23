@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 ###########################################################################
 
-prefix=C:/Program Files (x86)/OS3_1
+prefix=/usr/local
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -16,6 +16,6 @@ Description: Library for SSH-based communication
 Version: 1.11.2_DEV
 Requires: 
 Requires.private: 
-Libs: -L${libdir} -lssh2 -lws2_32
-Libs.private: -lws2_32
+Libs: -L${libdir} -lssh2 
+Libs.private: 
 Cflags: -I${includedir}

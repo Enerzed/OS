@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz" ABSOLUTE)
-get_filename_component(directory "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src" ABSOLUTE)
+get_filename_component(filename "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-tmp/704299e997bf518375dc9222670c57b800ac59e6.tar.gz" ABSOLUTE)
+get_filename_component(directory "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

@@ -39,38 +39,38 @@
  */
 
 /* Headers */
-/* #undef HAVE_UNISTD_H */
+#define HAVE_UNISTD_H
 #define HAVE_INTTYPES_H
-/* #undef HAVE_SYS_SELECT_H */
-/* #undef HAVE_SYS_UIO_H */
-/* #undef HAVE_SYS_SOCKET_H */
-/* #undef HAVE_SYS_IOCTL_H */
-/* #undef HAVE_SYS_TIME_H */
-/* #undef HAVE_SYS_UN_H */
+#define HAVE_SYS_SELECT_H
+#define HAVE_SYS_UIO_H
+#define HAVE_SYS_SOCKET_H
+#define HAVE_SYS_IOCTL_H
+#define HAVE_SYS_TIME_H
+#define HAVE_SYS_UN_H
 
 /* for example and tests */
-/* #undef HAVE_ARPA_INET_H */
-/* #undef HAVE_NETINET_IN_H */
+#define HAVE_ARPA_INET_H
+#define HAVE_NETINET_IN_H
 
 /* Functions */
-/* #undef HAVE_GETTIMEOFDAY */
+#define HAVE_GETTIMEOFDAY
 #define HAVE_STRTOLL
 /* #undef HAVE_STRTOI64 */
 #define HAVE_SNPRINTF
 /* #undef HAVE_EXPLICIT_BZERO */
 /* #undef HAVE_EXPLICIT_MEMSET */
-/* #undef HAVE_MEMSET_S */
+#define HAVE_MEMSET_S
 
 /* #undef HAVE_POLL */
 #define HAVE_SELECT
 
 /* Socket non-blocking support */
-/* #undef HAVE_O_NONBLOCK */
+#define HAVE_O_NONBLOCK
 /* #undef HAVE_FIONBIO */
 /* #undef HAVE_IOCTLSOCKET_CASE */
 /* #undef HAVE_SO_NONBLOCK */
 
 /* attribute to export symbol */
 #if defined(LIBSSH2_EXPORTS) && defined(LIBSSH2_LIBRARY)
-/* #undef LIBSSH2_API */
+#define LIBSSH2_API __attribute__((__visibility__("default")))
 #endif

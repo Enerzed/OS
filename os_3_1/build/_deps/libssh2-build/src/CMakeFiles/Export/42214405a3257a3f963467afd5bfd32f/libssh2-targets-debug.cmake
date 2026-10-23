@@ -9,11 +9,11 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET libssh2::libssh2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libssh2::libssh2_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/lib/libssh2.lib"
+  IMPORTED_LOCATION_DEBUG "${_IMPORT_PREFIX}/lib/libssh2.a"
   )
 
 list(APPEND _cmake_import_check_targets libssh2::libssh2_static )
-list(APPEND _cmake_import_check_files_for_libssh2::libssh2_static "${_IMPORT_PREFIX}/lib/libssh2.lib" )
+list(APPEND _cmake_import_check_files_for_libssh2::libssh2_static "${_IMPORT_PREFIX}/lib/libssh2.a" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

@@ -1,14 +1,14 @@
 # Target labels
  imgui-sfml-populate
 # Source files and their labels
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/6c2c4c393033e5a5426e6abdbe16b4b5/imgui-sfml-populate.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/ca0bed760a5c9a93eea4cebfb3aa4a23/imgui-sfml-populate-complete.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-build.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-configure.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-download.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-install.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-mkdir.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-patch.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-test.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/cb41740e10fb5b9c77402f7bd4c4bad5/imgui-sfml-populate-update.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/CMakeFiles/imgui-sfml-populate-complete.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-build.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-configure.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-download.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-install.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-mkdir.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-patch.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-test.rule
+/Users/nikita/code/os/os_3_1/build/_deps/imgui-sfml-subbuild/imgui-sfml-populate-prefix/src/imgui-sfml-populate-stamp/imgui-sfml-populate-update.rule

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src
+# Install script for directory: /Users/nikita/code/os/os_3_1/build/_deps/libssh2-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/OS3_1")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -32,26 +32,31 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/opt/homebrew/opt/llvm/bin/llvm-objdump")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/SFML" TYPE FILE FILES
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/COPYING"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/NEWS"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/README"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/RELEASE-NOTES"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/docs/AUTHORS"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/docs/BINDINGS.md"
-    "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/docs/HACKING.md"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/COPYING"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/NEWS"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/README"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/RELEASE-NOTES"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/docs/AUTHORS"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/docs/BINDINGS.md"
+    "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/docs/HACKING.md"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-build/src/cmake_install.cmake")
+  include("/Users/nikita/code/os/os_3_1/build/_deps/libssh2-build/src/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-build/install_local_manifest.txt"
+  file(WRITE "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

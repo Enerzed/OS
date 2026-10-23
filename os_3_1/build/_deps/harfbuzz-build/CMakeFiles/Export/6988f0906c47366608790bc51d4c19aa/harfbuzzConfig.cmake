@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -60,7 +60,7 @@ add_library(harfbuzz::harfbuzz STATIC IMPORTED)
 
 set_target_properties(harfbuzz::harfbuzz PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/harfbuzz"
-  INTERFACE_LINK_LIBRARIES "freetype"
+  INTERFACE_LINK_LIBRARIES "Threads::Threads;freetype"
 )
 
 # Load information for each installed configuration.

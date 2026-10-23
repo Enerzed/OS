@@ -1,7 +1,3 @@
-/*
- * Client.cpp
- */
-
 #include "Client.hpp"
 
 #include <chrono>
@@ -9,68 +5,52 @@
 
 Client::Client()
 {
-    window = new sf::RenderWindow(
-        sf::VideoMode({ WINDOW_WIDTH, WINDOW_HEIGHT }),
-        "Chat Client",
-        sf::Style::Close);
+    window = new sf::RenderWindow(sf::VideoMode({ WINDOW_WIDTH, WINDOW_HEIGHT }), "Chat Client", sf::Style::Close);
     window->setFramerateLimit(120);
 
     clock = new sf::Clock;
-    time  = new sf::Time;
 
     m_ui = new Interface;
     m_ui->Init(*window);
     m_ui->AddTextBox(LOG_BOX,  "Connection");
     m_ui->AddTextBox(CHAT_BOX, "Chat");
 
-    // Строка ввода в чат-боксе: Enter или кнопка Send -> SendMessage
-    m_ui->SetTextBoxInput(
-        CHAT_BOX,
-        [this](const std::string& text) { SendMessage(text); },
-        "Type a message and press Enter...");
+    m_ui->SetTextBoxInput(CHAT_BOX, [this](const std::string& text) { SendMessage(text); }, "Type a message and press Enter...");
 }
 
 Client::~Client()
 {
     running = false;
-    outgoingCV.notify_all();             // разбудить WriteLoop
+    outgoingCV.notify_all();
 
-    // Снимаем блокирующие ReadFile/WriteFile в net-потоке
+    uds.Close(); 
+
     if (netThread.joinable())
     {
-        CancelSynchronousIo(netThread.native_handle());
         netThread.join();
     }
 
-    // Ещё раз — на случай, если WriteLoop висел в WriteFile
-    // (после running=false он выйдет по таймауту CV)
-    pipe.Close();
     m_ui->Shutdown();
 
     delete m_ui;
     delete window;
     delete clock;
-    delete time;
 }
 
 void Client::Log(const std::string& msg)
 {
     std::lock_guard lock(pendingLogsMutex);
     pendingLogs.push(msg);
-    std::cout << msg << std::endl;
 }
 
-// ---------------------------------------------------------------------
-//  Сетевой поток: connect + recv, авто-reconnect
-// ---------------------------------------------------------------------
 void Client::NetLoop()
 {
     while (running)
     {
         if (!connected)
         {
-            Log("[net] connecting to \\\\.\\pipe\\ChatServer ...");
-            if (!pipe.Connect(PIPE_NAME, 3000))
+            Log("[net] connecting to " + std::string(SOCKET_PATH) + " ...");
+            if (!uds.Connect(SOCKET_PATH, 3000)) 
             {
                 Log("[net] server not reachable, will retry");
                 std::this_thread::sleep_for(std::chrono::milliseconds(1000));
@@ -79,14 +59,13 @@ void Client::NetLoop()
 
             connected = true;
             Log("[net] connected");
-            outgoingCV.notify_all();     // разбудить WriteLoop
+            outgoingCV.notify_all();
 
-            // Поток-писатель на время жизни этого соединения
             std::thread(&Client::WriteLoop, this).detach();
         }
 
         std::string data;
-        while (running && connected && pipe.Read(data))
+        while (running && connected && uds.Read(data))
         {
             std::lock_guard lock(incomingMutex);
             incoming.push(std::move(data));
@@ -96,7 +75,7 @@ void Client::NetLoop()
         if (connected)
         {
             connected = false;
-            pipe.Close();
+            uds.Close();
             Log("[net] disconnected");
             outgoingCV.notify_all();
         }
@@ -113,9 +92,7 @@ void Client::WriteLoop()
         std::string msg;
         {
             std::unique_lock lock(outgoingMutex);
-            outgoingCV.wait(lock, [this] {
-                return !outgoing.empty() || !running || !connected;
-            });
+            outgoingCV.wait(lock, [this] {return !outgoing.empty() || !running || !connected;});
 
             if (!running) return;
 
@@ -130,26 +107,16 @@ void Client::WriteLoop()
             outgoing.pop();
         }
 
-        Log("[debug] WriteLoop sending: " + msg); // <-- ДОБАВИТЬ
-
-        if (!pipe.Write(msg))
+        if (!uds.Write(msg))
         {
             Log("[net] write failed");
             connected = false;
         }
-        else
-        {
-            Log("[debug] WriteLoop success!"); // <-- ДОБАВИТЬ
-        }
     }
 }
 
-// ---------------------------------------------------------------------
-//  Отправка из UI-потока
-// ---------------------------------------------------------------------
 void Client::SendMessage(const std::string& msg)
 {
-    Log("[debug] SendMessage: " + msg);
     if (!connected)
     {
         Log("[net] cannot send: not connected");
@@ -163,9 +130,6 @@ void Client::SendMessage(const std::string& msg)
     outgoingCV.notify_one();
 }
 
-// ---------------------------------------------------------------------
-//  Перенос принятого из очереди в UI (главный поток)
-// ---------------------------------------------------------------------
 void Client::DrainIncoming()
 {
     std::queue<std::string> local;
@@ -196,9 +160,6 @@ void Client::RunInterface()
     m_ui->Render();
 }
 
-// ---------------------------------------------------------------------
-//  Главный цикл
-// ---------------------------------------------------------------------
 void Client::Run()
 {
     netThread = std::thread(&Client::NetLoop, this);

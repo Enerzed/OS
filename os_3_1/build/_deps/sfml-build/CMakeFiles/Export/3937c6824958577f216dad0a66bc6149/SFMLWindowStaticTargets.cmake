@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -62,7 +62,7 @@ set_target_properties(SFML::Window PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:OpenGL::GL>;\$<LINK_ONLY:winmm>;\$<LINK_ONLY:gdi32>"
+  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:-ObjC>;\$<LINK_ONLY:OpenGL::GL>;-framework Foundation;-framework AppKit;-framework IOKit;-framework Carbon"
 )
 
 # Load information for each installed configuration.

@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -60,7 +60,6 @@ add_library(MbedTLS::mbedcrypto STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedcrypto PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/"
-  INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt"
 )
 
 # Create imported target MbedTLS::mbedx509
@@ -68,7 +67,7 @@ add_library(MbedTLS::mbedx509 STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedx509 PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/"
-  INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt;MbedTLS::mbedcrypto"
+  INTERFACE_LINK_LIBRARIES "MbedTLS::mbedcrypto"
 )
 
 # Create imported target MbedTLS::mbedtls
@@ -76,7 +75,7 @@ add_library(MbedTLS::mbedtls STATIC IMPORTED)
 
 set_target_properties(MbedTLS::mbedtls PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/"
-  INTERFACE_LINK_LIBRARIES "ws2_32;bcrypt;MbedTLS::mbedx509"
+  INTERFACE_LINK_LIBRARIES "MbedTLS::mbedx509"
 )
 
 # Load information for each installed configuration.

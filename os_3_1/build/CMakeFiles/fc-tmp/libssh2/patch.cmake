@@ -5,9 +5,9 @@ message(VERBOSE "Executing patch step for libssh2")
 block(SCOPE_FOR VARIABLES)
 
 execute_process(
-  WORKING_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src"
+  WORKING_DIRECTORY "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src"
   COMMAND_ERROR_IS_FATAL LAST
-  COMMAND  [====[C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe]====] [====[-DLIBSSH2_DIR=C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src]====] [====[-DMODULES_DIR=C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/src/SFML/Network/../../../cmake/Modules]====] [====[-P]====] [====[C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-src/tools/libssh2/PatchLibssh2.cmake]====]
+  COMMAND  [====[/opt/homebrew/bin/cmake]====] [====[-DLIBSSH2_DIR=/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src]====] [====[-DMODULES_DIR=/Users/nikita/code/os/os_3_1/build/_deps/sfml-src/src/SFML/Network/../../../cmake/Modules]====] [====[-P]====] [====[/Users/nikita/code/os/os_3_1/build/_deps/sfml-src/tools/libssh2/PatchLibssh2.cmake]====]
 )
 
 endblock()

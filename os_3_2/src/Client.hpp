@@ -2,9 +2,9 @@
 
 #define WINDOW_WIDTH 720
 #define WINDOW_HEIGHT 720
-#define PIPE_NAME L"\\\\.\\pipe\\ChatServer"
+#define SOCKET_PATH "/tmp/chat_server.sock"
 
-#include "Pipes.hpp"
+#include "UDS.hpp"
 #include "Interface.hpp"
 
 #include <SFML/System.hpp>
@@ -26,31 +26,27 @@ private:
 
     sf::RenderWindow* window;
     sf::Clock* clock;
-    sf::Time* time;
     Interface* m_ui;
 
-    Pipes pipe;
+    UDS uds;
     std::thread netThread;
 
     std::atomic<bool> running{ true };
     std::atomic<bool> connected{ false };
 
-    // read: netThread -> UI
     std::queue<std::string> incoming;
     std::mutex incomingMutex;
 
-    // write: UI -> netThread (единственный поток, который трогает pipe.Write)
     std::queue<std::string> outgoing;
     std::mutex outgoingMutex;
     std::condition_variable outgoingCV;
 
-    // logs из net-потока -> UI
     std::queue<std::string> pendingLogs;
     std::mutex pendingLogsMutex;
 
     void Log(const std::string& msg);
-    void NetLoop();     // сеть: connect + приём
-    void WriteLoop();   // единственный писатель в pipe
+    void NetLoop();
+    void WriteLoop();
     void DrainIncoming();
     void RunInterface();
     void SendMessage(const std::string& msg);

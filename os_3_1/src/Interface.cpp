@@ -8,11 +8,8 @@
 
 namespace
 {
-    // Автоматическая защита от переполнения буфера:
-    // как только строк становится больше — старые отбрасываются.
     constexpr size_t MAX_LINES_PER_BOX = 2000;
 
-    // Жёсткий layout под окно 720×720. Двух боксов достаточно.
     struct Layout { ImVec2 pos; ImVec2 size; };
     constexpr size_t LAYOUT_COUNT = 2;
     const Layout LAYOUTS[LAYOUT_COUNT] = {
@@ -63,8 +60,6 @@ void Interface::pushLine(unsigned short id, std::string line)
     auto& box = boxes[id];
     box.messages.push_back(std::move(line));
 
-    // Автоматическая обрезка: старые сообщения отбрасываются,
-    // как только буфер переполнен.
     if (box.messages.size() > MAX_LINES_PER_BOX)
     {
         box.messages.erase(

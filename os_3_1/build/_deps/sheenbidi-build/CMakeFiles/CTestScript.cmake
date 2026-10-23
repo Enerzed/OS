@@ -2,14 +2,14 @@
 # If you choose not to use CMake, this file may be hand configured, by
 # filling in the required variables.
 
-cmake_minimum_required(VERSION 4.3.1-msvc1)
+cmake_minimum_required(VERSION 4.4.4)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sheenbidi-src")
-set(CTEST_BINARY_DIRECTORY "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sheenbidi-build")
+set(CTEST_SOURCE_DIRECTORY "/Users/nikita/code/os/os_3_1/build/_deps/sheenbidi-src")
+set(CTEST_BINARY_DIRECTORY "/Users/nikita/code/os/os_3_1/build/_deps/sheenbidi-build")
 
 # CTest Update Step
-set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")
+set(CTEST_UPDATE_COMMAND "/opt/homebrew/bin/git")
 set(CTEST_UPDATE_OPTIONS "")
 set(CTEST_UPDATE_VERSION_ONLY "")
 set(CTEST_NIGHTLY_START_TIME "00:00:00 EDT")
@@ -24,7 +24,7 @@ set(CTEST_SVN_OPTIONS "")
 set(CTEST_SVN_UPDATE_OPTIONS "")
 
 # Git options
-set(CTEST_GIT_COMMAND "C:/Program Files/Git/cmd/git.exe")
+set(CTEST_GIT_COMMAND "/opt/homebrew/bin/git")
 set(CTEST_GIT_INIT_SUBMODULES "")
 set(CTEST_GIT_UPDATE_CUSTOM "")
 set(CTEST_GIT_UPDATE_OPTIONS "")
@@ -37,20 +37,21 @@ set(CTEST_P4_UPDATE_CUSTOM "")
 set(CTEST_P4_UPDATE_OPTIONS "")
 
 # CTest Configure Step
-set(CTEST_CMAKE_GENERATOR "Visual Studio 18 2026")
+set(CTEST_CMAKE_GENERATOR "Ninja")
 set(CTEST_LABELS_FOR_SUBPROJECTS "")
 
 # CTest Build Step
 set(CTEST_CONFIGURATION_TYPE "Release")
-set(CTEST_USE_LAUNCHERS "0")
+set(CTEST_USE_LAUNCHERS "")
 
 # CTest Test Step
 set(CTEST_RESOURCE_SPEC_FILE "")
 set(CTEST_TEST_LOAD "")
 set(CTEST_TEST_TIMEOUT "1500")
+set(CTEST_TEST_COVERAGE_TOOL "")
 
 # CTest Coverage Step
-set(CTEST_COVERAGE_COMMAND "COVERAGE_COMMAND-NOTFOUND")
+set(CTEST_COVERAGE_COMMAND "/usr/bin/gcov")
 set(CTEST_COVERAGE_EXTRA_FLAGS "-l")
 
 # CTest MemCheck Step
@@ -61,8 +62,8 @@ set(CTEST_MEMORYCHECK_SANITIZER_OPTIONS "")
 set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
-set(CTEST_SITE "DESKTOP-E0L2871")
-set(CTEST_BUILD_NAME "Win32-MSBuild")
+set(CTEST_SITE "Nikitas-MacBook-Air.local")
+set(CTEST_BUILD_NAME "Darwin-clang++")
 set(CTEST_SUBMIT_URL "http://")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")
 set(CTEST_TLS_VERIFY "")

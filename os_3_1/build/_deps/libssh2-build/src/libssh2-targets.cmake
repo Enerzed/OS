@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.3")
    message(FATAL_ERROR "CMake >= 2.8.3 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.3...4.1)
+cmake_policy(VERSION 2.8.3...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -51,36 +51,14 @@ add_library(libssh2::libssh2_static STATIC IMPORTED)
 
 set_target_properties(libssh2::libssh2_static PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "LIBSSH2_API="
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/libssh2-src/include"
-  INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:ws2_32>"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/nikita/code/os/os_3_1/build/_deps/libssh2-src/include"
 )
 
 # Import target "libssh2::libssh2_static" for configuration "Debug"
 set_property(TARGET libssh2::libssh2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(libssh2::libssh2_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Debug/libssh2.lib"
-  )
-
-# Import target "libssh2::libssh2_static" for configuration "Release"
-set_property(TARGET libssh2::libssh2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
-set_target_properties(libssh2::libssh2_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/Release/libssh2.lib"
-  )
-
-# Import target "libssh2::libssh2_static" for configuration "MinSizeRel"
-set_property(TARGET libssh2::libssh2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(libssh2::libssh2_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "C"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/MinSizeRel/libssh2.lib"
-  )
-
-# Import target "libssh2::libssh2_static" for configuration "RelWithDebInfo"
-set_property(TARGET libssh2::libssh2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(libssh2::libssh2_static PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-build/lib/RelWithDebInfo/libssh2.lib"
+  IMPORTED_LOCATION_DEBUG "/Users/nikita/code/os/os_3_1/build/_deps/sfml-build/lib/libssh2.a"
   )
 
 # This file does not depend on other imported targets which have

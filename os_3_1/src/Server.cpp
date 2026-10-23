@@ -1,7 +1,7 @@
 #include "Server.hpp"
-
 #include <chrono>
 #include <iostream>
+#include <algorithm>
 
 Server::Server()
 {
@@ -9,7 +9,6 @@ Server::Server()
     window->setFramerateLimit(120);
 
     clock = new sf::Clock;
-    time  = new sf::Time;
 
     ui = new Interface;
     ui->Init(*window);
@@ -21,42 +20,42 @@ Server::~Server()
 {
     running = false;
 
+    if (listener)
+    {
+        listener->Close(); 
+    }
     if (acceptThread.joinable())
     {
-        CancelSynchronousIo(acceptThread.native_handle());
         acceptThread.join();
+    }
+    if (listener)
+    {
+        delete listener;
+        listener = nullptr;
     }
 
     {
         std::lock_guard lock(clientsMutex);
-        for (Pipes* p : clients) p->Close();
+        for (auto& p : clients) p->Close();
         clients.clear();
     }
 
     ui->Shutdown();
-
     delete ui;
     delete window;
     delete clock;
-    delete time;
 }
 
-// ---------------------------------------------------------------------
-//  Логирование
-// ---------------------------------------------------------------------
 void Server::Log(const std::string& msg)
 {
     std::lock_guard lock(pendingLogsMutex);
     pendingLogs.push(msg);
-    std::cout << msg << std::endl;
 }
 
-// ---------------------------------------------------------------------
-//  Сеть
-// ---------------------------------------------------------------------
 void Server::RunNetwork()
 {
-    Log("[net] pipe name: \\\\.\\pipe\\ChatServer");
+    listener = new UDSListener(SOCKET_PATH);
+    Log("[net] listening on " + std::string(SOCKET_PATH));
     acceptThread = std::thread(&Server::AcceptLoop, this);
 }
 
@@ -64,73 +63,48 @@ void Server::AcceptLoop()
 {
     while (running)
     {
-        Pipes* pipe = new Pipes(PIPE_NAME);
+        int client_fd = listener->Accept();
+        if (client_fd < 0) break; 
 
-        if (!pipe->IsValid())
-        {
-            Log("[net] CreateNamedPipe failed: " + std::to_string(GetLastError()));
-            delete pipe;
-            std::this_thread::sleep_for(std::chrono::milliseconds(100));
-            continue;
-        }
+        auto uds = std::make_shared<UDS>(client_fd);
 
-        if (!pipe->WaitForClient())
-        {
-            delete pipe;
-            continue;
-        }
-
-        if (!running) { delete pipe; break; }
-
-        size_t count;
         {
             std::lock_guard lock(clientsMutex);
-            clients.push_back(pipe);
-            count = clients.size();
+            clients.push_back(uds);
         }
-        Log("[net] client connected (total: " + std::to_string(count) + ")");
 
-        std::thread(&Server::ReadClientThread, this, pipe).detach();
+        Log("[net] client connected");
+        std::thread(&Server::ReadClientThread, this, uds).detach();
     }
-
     Log("[net] accept loop stopped");
 }
 
-void Server::ReadClientThread(Pipes* pipe)
+void Server::ReadClientThread(std::shared_ptr<UDS> uds)
 {
     std::string data;
-    while (running && pipe->Read(data))
+    while (running && uds->Read(data))
     {
-        Log("[debug] Server received: " + data);
         std::lock_guard lock(incomingMutex);
-        incoming.push({ pipe, std::move(data) });
+        incoming.push({uds, std::move(data) });
         data.clear();
     }
 
     {
         std::lock_guard lock(clientsMutex);
-        for (auto it = clients.begin(); it != clients.end(); ++it)
-        {
-            if (*it == pipe) { clients.erase(it); break; }
-        }
+        clients.erase(std::remove(clients.begin(), clients.end(), uds), clients.end());
     }
-
-    pipe->Close();
-    delete pipe;
 
     Log("[net] client disconnected");
 }
 
-void Server::Broadcast(const std::string& data, Pipes* exclude)
+void Server::Broadcast(const std::string& data)
 {
     std::lock_guard lock(clientsMutex);
-    for (Pipes* p : clients)
-        if (p != exclude) p->Write(data);
+    for (auto& p : clients) {
+        p->Write(data);
+    }
 }
 
-// ---------------------------------------------------------------------
-//  Пакеты (главный поток)
-// ---------------------------------------------------------------------
 void Server::RunPackets()
 {
     std::queue<Incoming> local;
@@ -144,26 +118,13 @@ void Server::RunPackets()
         Incoming msg = std::move(local.front());
         local.pop();
 
-        // MVP-протокол: сырая строка.
-        // В CHAT_BOX — сам текст (без префикса [system]), в консоль — с пометкой.
         ui->TextBoxMessage("", msg.data, CHAT_BOX);
-        std::cout << "[chat] " << msg.data << std::endl;
-
         Broadcast(msg.data);
     }
 }
 
-void Server::RunSystemMessages()
-{
-    // сюда можно добавить join/leave уведомления
-}
-
-// ---------------------------------------------------------------------
-//  UI (главный поток)
-// ---------------------------------------------------------------------
 void Server::RunInterface()
 {
-    // Перенос отложенных логов в UI-бокс
     {
         std::lock_guard lock(pendingLogsMutex);
         while (!pendingLogs.empty())
@@ -172,13 +133,9 @@ void Server::RunInterface()
             pendingLogs.pop();
         }
     }
-
     ui->Render();
 }
 
-// ---------------------------------------------------------------------
-//  Главный цикл
-// ---------------------------------------------------------------------
 void Server::Run()
 {
     RunNetwork();
@@ -195,7 +152,6 @@ void Server::Run()
         ui->Update(*window, clock->restart());
 
         RunPackets();
-        RunSystemMessages();
         RunInterface();
 
         window->clear();

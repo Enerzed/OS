@@ -1,8 +1,8 @@
 # Copyright (C) The libssh2 project and its contributors.
 # SPDX-License-Identifier: BSD-3-Clause
 
-option(LIBSSH2_USE_PKGCONFIG "Enable pkg-config to detect libssh2 dependencies. Default: OFF"
-  "OFF")
+option(LIBSSH2_USE_PKGCONFIG "Enable pkg-config to detect libssh2 dependencies. Default: ON"
+  "ON")
 
 if(CMAKE_VERSION VERSION_LESS 3.7)
   message(STATUS "libssh2: libssh2-specific Find modules require "

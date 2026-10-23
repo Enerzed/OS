@@ -1,17 +1,11 @@
-/*
- * main.cpp
- */
-
-#pragma execution_character_set("utf-8")
 #include "Server.hpp"
-
+#include <csignal>
 
 int main()
 {
-    // Encoding
-    system("chcp 65001");
-    // Running Server
-    Server* server = new Server();
-    server->Run();
+    signal(SIGPIPE, SIG_IGN); 
+
+    Server server;
+    server.Run();
     return 0;
 }

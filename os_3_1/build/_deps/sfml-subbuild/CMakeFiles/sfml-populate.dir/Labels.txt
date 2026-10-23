@@ -1,14 +1,14 @@
 # Target labels
  sfml-populate
 # Source files and their labels
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/6bbd98f9c30e97bc266f947a3908709f/sfml-populate.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/d420667c354a9ae001133ab816ae329d/sfml-populate-complete.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-build.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-configure.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-download.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-install.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-mkdir.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-patch.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-test.rule
-C:/Users/laske/Desktop/Лабы/Проектирование операционных систем/OS/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/9a291d61be344baa16402e86e5604e77/sfml-populate-update.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test.rule
+/Users/nikita/code/os/os_3_1/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update.rule

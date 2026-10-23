@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -62,7 +62,7 @@ set_target_properties(SFML::Network PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "SFML_STATIC"
   INTERFACE_COMPILE_FEATURES "cxx_std_17"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:Crypt32>;\$<LINK_ONLY:ws2_32>;\$<LINK_ONLY:Dnsapi>;\$<LINK_ONLY:libssh2::libssh2_static>;\$<LINK_ONLY:MbedTLS::mbedtls>;\$<LINK_ONLY:MbedTLS::mbedcrypto>;\$<LINK_ONLY:MbedTLS::mbedx509>"
+  INTERFACE_LINK_LIBRARIES "SFML::System;\$<LINK_ONLY:resolv>;\$<LINK_ONLY:libssh2::libssh2_static>;\$<LINK_ONLY:MbedTLS::mbedtls>;\$<LINK_ONLY:MbedTLS::mbedcrypto>;\$<LINK_ONLY:MbedTLS::mbedx509>;-framework Security;-framework CoreFoundation"
 )
 
 # Load information for each installed configuration.

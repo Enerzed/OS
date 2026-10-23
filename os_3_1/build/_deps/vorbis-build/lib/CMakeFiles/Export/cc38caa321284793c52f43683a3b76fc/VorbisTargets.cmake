@@ -7,7 +7,7 @@ if(CMAKE_VERSION VERSION_LESS "2.8.12")
    message(FATAL_ERROR "CMake >= 2.8.12 required")
 endif()
 cmake_policy(PUSH)
-cmake_policy(VERSION 2.8.12...4.1)
+cmake_policy(VERSION 2.8.12...4.2)
 #----------------------------------------------------------------
 # Generated CMake target import file.
 #----------------------------------------------------------------
@@ -60,7 +60,7 @@ add_library(Vorbis::vorbis STATIC IMPORTED)
 
 set_target_properties(Vorbis::vorbis PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Ogg::ogg;\$<LINK_ONLY:\$<\$<BOOL:>:m>>"
+  INTERFACE_LINK_LIBRARIES "Ogg::ogg;\$<LINK_ONLY:\$<\$<BOOL:1>:m>>"
 )
 
 # Create imported target Vorbis::vorbisenc

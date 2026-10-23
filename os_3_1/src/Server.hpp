@@ -2,10 +2,9 @@
 
 #define WINDOW_WIDTH 720
 #define WINDOW_HEIGHT 720
+#define SOCKET_PATH "/tmp/chat_server.sock"
 
-#define PIPE_NAME L"\\\\.\\pipe\\ChatServer"
-
-#include "Pipes.hpp"
+#include "UDS.hpp"
 #include "Interface.hpp"
 
 #include <SFML/System.hpp>
@@ -13,6 +12,7 @@
 #include <SFML/Graphics.hpp>
 
 #include <atomic>
+#include <memory>
 #include <mutex>
 #include <queue>
 #include <string>
@@ -27,33 +27,35 @@ private:
 
     sf::RenderWindow* window;
     sf::Clock* clock;
-    sf::Time* time;
     Interface* ui;
 
-    std::vector<Pipes*> clients;
+    std::vector<std::shared_ptr<UDS>> clients;
     std::mutex clientsMutex;
     std::atomic<bool> running{ true };
 
-    struct Incoming { Pipes* from; std::string data; };
+    struct Incoming { 
+        std::shared_ptr<UDS> from; 
+        std::string data; 
+    };
     std::queue<Incoming> incoming;
     std::mutex incomingMutex;
 
     std::thread acceptThread;
+    UDSListener* listener = nullptr;
 
     std::queue<std::string> pendingLogs;
     std::mutex pendingLogsMutex;
 
     void Log(const std::string& msg);
     void AcceptLoop();
-    void ReadClientThread(Pipes*);
-    void Broadcast(const std::string& data, Pipes* exclude = nullptr);
+    void ReadClientThread(std::shared_ptr<UDS> uds);
+    void Broadcast(const std::string& data);
 
 public:
     Server();
     ~Server();
     void Run();
     void RunNetwork();
-    void RunSystemMessages();
     void RunPackets();
     void RunInterface();
 };
