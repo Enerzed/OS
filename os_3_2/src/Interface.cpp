@@ -9,9 +9,6 @@
 namespace
 {
     constexpr size_t MAX_LINES_PER_BOX = 2000;
-
-    // Пропорциональный layout: 25% высоты сверху (log), остальное — chat.
-    // Работает при любом размере окна, одинаково для сервера и клиента.
     struct Layout { ImVec2 pos; ImVec2 size; };
 
     Layout computeLayout(size_t index, size_t total)
