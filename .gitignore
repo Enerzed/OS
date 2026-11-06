@@ -72,3 +72,7 @@ Testing/
 
 # DS_Store
 .DS_Store
+
+# ImGui
+
+imgui.ini
